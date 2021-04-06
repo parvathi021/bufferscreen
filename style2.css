@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bufferscreen.jpg);
+    background-size: cover;
+    -webkit-background-size:cover;
+    font-family: sans-serif;
+}
+.bufferscreen{
+    width: 320px;
+    height: 530px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}  
+.bufferscreen p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.bufferscreen input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.bufferscreen input[type="date"], input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    display:block;
+    position:relative;
+    font-family:sans-serif;
+}
+.bufferscreen input[type="date"]::-webkit-inner-spin-button { 
+    display:none;
+  }
+  ::-webkit-calendar-picker-indicator { background-color:white}
+.bufferscreen input[type=date]{
+    font-size:16px;
+  }
+.bufferscreen input::-webkit-datetime-edit-text { color:#555555}
+.bufferscreen input::-webkit-datetime-edit-month-field { color:#555555 }
+.bufferscreen input::-webkit-datetime-edit-day-field { color: #555555; }
+.bufferscreen input::-webkit-datetime-edit-year-field { color:#555555; }
+.bufferscreen input::-webkit-calendar-picker-indicator{ 
+    background-image: url(icon.png);
+    background-position:center;
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+    color:rgba(204,204,204,0);
+}
+.bufferscreen input[type="text"], input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.bufferscreen input[type="number"], input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}    
+.bufferscreen input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.bufferscreen input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
